@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/real-estate/',
   plugins: [react(), viteStaticCopy({
     targets: [
-      { src: 'assests/*', dest: '' }
+      { src: 'src/assets/*', dest: 'assets/' }
     ]
   }), tailwindcss()],
 })
