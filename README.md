@@ -56,7 +56,7 @@ Make sure you have the following installed on your machine:
 
 ```sh
 git clone https://github.com/BhavanCodesIt/real-estate
-cd artfolio
+cd Real Estate
 ```
 
 ### Installation
