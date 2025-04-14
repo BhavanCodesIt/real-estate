@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
             <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
             <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
-            <a href="#Testimonails" className='cursor-pointer hover:text-gray-400'>Testimonails</a>
+            <a href="#Testimonails" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
         </ul>
         <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign up</button>
         <img onClick={()=> setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
@@ -37,7 +37,7 @@ const Navbar = () => {
           <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'>Home</a> 
           <a onClick={()=> setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'>About</a>
           <a onClick={()=> setShowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'>Projects</a>
-          <a onClick={()=> setShowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'>Testimonails</a>
+          <a onClick={()=> setShowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
         </ul>
       </div>
     </div>
